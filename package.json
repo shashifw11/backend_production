@@ -4,9 +4,17 @@
   "description": "production ready backend",
   "license": "ISC",
   "author": "ShashiKumar",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
